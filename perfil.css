@@ -13,27 +13,27 @@ body {
     align-items: center; 
     height: 100vh; 
     margin: 0;
-    background-color: darkgray; 
+    background-color: rgb(50, 48, 54); 
     font-family: Arial, sans-serif;
 }
-
 #card-perfil {
     display: flex;
-    flex-direction: column; 
+    flex-direction: row; 
+    justify-content: center; 
     align-items: center; 
-    background-color: darkgray;
-    width: 300px; 
+    background-color: rgb(50, 48, 54);
+    width: 300px;
     padding: 20px;
+    gap: 10px; 
 }
 
-#img-perfil {
-    width: 75%;
-   
-}
 
+#img-perfil, #img-perfil_B {
+    width: 100px;
+}
 #txt-perfil {
     width: 100%;
-    background-color: darkgray;
+    background-color:rgb(50, 48, 54);
     color: rgb(255, 255, 255);
     padding: 10px;
     border-radius: 5px;
@@ -50,4 +50,7 @@ body {
     font-size: 16px;
 }
 
-
+#button{
+    width: 100px;
+    height: 100px;
+}
