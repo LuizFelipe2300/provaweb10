@@ -16,7 +16,9 @@ async function buscarPokemon() {
             document.getElementById("txt-idade").innerHTML = data.id;
 
     
-            document.getElementById("img-perfil").src = data.sprites.back_default;
+            document.getElementById("img-perfil").src = data.sprites.front_default;
+            document.getElementById("img-perfil_B").src = data.sprites.back_default;
+
         } else {
             alert("Pokémon não encontrado. Verifique o ID.");
         }
@@ -25,3 +27,5 @@ async function buscarPokemon() {
         alert("Erro ao buscar dados. Por favor, tente novamente.");
     }
 }
+
+
