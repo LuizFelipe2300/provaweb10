@@ -1,7 +1,7 @@
 async function buscarPokemon() {
     const idPk = document.getElementById("id-pk").value;
 
-    const id = idPk ? idPk : 25;
+    const id = idPk ? idPk : 1;
 
     const url = `https://pokeapi.co/api/v2/pokemon/${id}`;
     
